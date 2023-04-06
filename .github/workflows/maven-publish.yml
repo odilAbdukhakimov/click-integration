@@ -45,7 +45,7 @@ jobs:
        image: odilabduhakimov/click
        tags: latest
        build-args: |
-         DB_URL=jdbc:postgresql://localhost:5432/mydatabse
+         DB_URL=jdbc:postgresql://db:5432/mydatabse
          DB_USERNAME=myuser
          DB_PASSWORD=mypassword
        registry: docker.io
